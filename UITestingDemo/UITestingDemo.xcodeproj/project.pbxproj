@@ -15,6 +15,7 @@
 		5CC30EBB2B2FCDD4005C438A /* UITestingDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC30EBA2B2FCDD4005C438A /* UITestingDemoUITests.swift */; };
 		5CC30EBD2B2FCDD4005C438A /* UITestingDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC30EBC2B2FCDD4005C438A /* UITestingDemoUITestsLaunchTests.swift */; };
 		5CC30ECA2B2FE273005C438A /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC30EC92B2FE273005C438A /* UserViewModel.swift */; };
+		5CC30ECC2B2FE6EF005C438A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC30ECB2B2FE6EF005C438A /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5CC30EBA2B2FCDD4005C438A /* UITestingDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingDemoUITests.swift; sourceTree = "<group>"; };
 		5CC30EBC2B2FCDD4005C438A /* UITestingDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestingDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5CC30EC92B2FE273005C438A /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		5CC30ECB2B2FE6EF005C438A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				5CC30EC92B2FE273005C438A /* UserViewModel.swift */,
 				5CC30E9E2B2FCDD2005C438A /* UITestingDemoApp.swift */,
+				5CC30ECB2B2FE6EF005C438A /* LoginView.swift */,
 				5CC30EA02B2FCDD2005C438A /* ContentView.swift */,
 				5CC30EA22B2FCDD4005C438A /* Assets.xcassets */,
 				5CC30EA42B2FCDD4005C438A /* UITestingDemo.entitlements */,
@@ -264,6 +267,7 @@
 			files = (
 				5CC30EA12B2FCDD2005C438A /* ContentView.swift in Sources */,
 				5CC30E9F2B2FCDD2005C438A /* UITestingDemoApp.swift in Sources */,
+				5CC30ECC2B2FE6EF005C438A /* LoginView.swift in Sources */,
 				5CC30ECA2B2FE273005C438A /* UserViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

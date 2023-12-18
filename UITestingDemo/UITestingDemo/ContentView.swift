@@ -23,6 +23,9 @@ struct ContentView: View {
             .accessibilityIdentifier("LoginButton")
         }
         .padding()
+        .sheet(isPresented: $showLogin ){
+            LoginView()
+        }
     }
 }
 
