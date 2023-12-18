@@ -43,6 +43,7 @@ final class UITestingDemoUITests: XCTestCase {
         XCTAssert(login.exists)
         
         // 버튼의 라벨을 확인
+        // 라벨이 의도적으로 변경됐는지 화
         XCTAssertEqual(login.label, "Login")
     }
     
