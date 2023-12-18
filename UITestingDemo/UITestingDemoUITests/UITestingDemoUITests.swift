@@ -26,9 +26,13 @@ final class UITestingDemoUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        let welcome = app.staticTexts["Welcome!"]
+//        let welcome = app.staticTexts["Welcome!"]
+        // 현재 앱에 존재하는 유일한 텍스트 뷰
+        let welcome = app.staticTexts.element
         
+        //welcome을 Test하기위한 2가지 방법
         XCTAssert(welcome.exists)
+        XCTAssertEqual(welcome.label, "Welcome!")
 
     }
 
