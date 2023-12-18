@@ -41,8 +41,15 @@ final class UITestingDemoUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         
-        let login = app.buttons["Login"]
+//        let login = app.buttons["Login"]
+        
+        //View에 식별자를 활용 Test
+        let login = app.buttons["LoginButton"]
+        
         XCTAssert(login.exists)
+        
+        // 버튼의 라벨을 확인
+        XCTAssertEqual(login.label, "Login")
     }
     
     func testLaunchPerformance() throws {
