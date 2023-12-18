@@ -31,7 +31,17 @@ struct LoginView: View {
                 }
                 .accessibilityIdentifier("loginNow")
             }
+            .navigationTitle(Text("로그인 창"))
+            .navigationBarItems(trailing: Button{
+                //로그인 시트 닫기
+                presentationMode.wrappedValue.dismiss()
+            } label: {
+                Image(systemName: "xmark.circle")
+                    .accessibilityLabel("")
+            }
+            )
         }
+
     }
 }
 
