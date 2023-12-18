@@ -11,7 +11,7 @@ struct ContentView: View {
     @State private var showLogin = false
     var body: some View {
         VStack {
-            Text("Wellcome")
+            Text("Welcome!")
                 .font(.title)
             
             Button{
